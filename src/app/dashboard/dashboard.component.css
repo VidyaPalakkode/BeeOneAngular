@@ -1,0 +1,39 @@
+.content-body{
+    height:1000px;
+    color:lightgray;
+    float: inherit;
+}
+
+.chart{
+    background-color: white;
+}
+
+.clr{
+    clear: both; 
+    height: 1vh;
+    margin-top:30px;
+    margin-left: 125px;
+    color: black;
+  }
+
+  .chart1{
+    background-color: white;
+    column-width: 30px;
+    height:250px;
+    width:800px;
+    margin-top: 60px;
+    margin-left:125px;
+
+  }
+
+  .chart2{
+    background-color: white;
+    text-align: center;
+    color:black;
+    column-width: 50px;
+    height:150px;
+    width:200px;
+    margin-top: 60px;
+    margin-right:125px;
+    margin-left:105px;
+  }

@@ -1,0 +1,141 @@
+
+
+  #navlist {
+    position: relative;
+  }
+  
+  #navlist li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+  }
+
+  
+
+  
+
+  
+#vertical-menu {
+    height: 0vh;
+    width: 100px;
+    border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+    border-top-right-radius: 110px; /* 100px of height + 10px of border */
+    clear: both;  
+  }
+
+  .clr{
+    clear: both; 
+    height: 1vh;
+    margin-top:-5px;
+    margin-left: 250px;
+    color: black;
+  }
+
+  .align-top {
+    height: 0;
+    margin-top:-45px;
+    margin-left: 250px;
+    color: black;
+    clear: both;  
+}
+
+  .rounded-corner {
+    border-bottom-left-radius: 110px;  /* 100px of height + 10px of border */
+    border-top-left-radius: 110px; /* 100px of height + 10px of border */
+  }
+  
+  .vertical-menu a {
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc;
+  }
+  
+  .vertical-menu a.active {
+    background-color: #3498DB ;
+    color: white;
+  }
+
+  .clr-a { 
+    position: absolute; 
+    left: 50%; 
+    height:30px;
+    transform: translatex(-50%); 
+} 
+
+  .sidebar {
+    height: 181%;
+    width:60px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    border: 1px solid lightgray;
+    background-color: white;
+    padding-top: 100px;
+    transition: 0.3s;
+    
+  }
+  
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+    left: 0;
+  }
+  
+  .sidebar1 {
+    height: 181%;
+    width:100px;
+    color:black;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    border: 1px solid lightgray;
+    background-color: white;
+    padding-top: 100px;
+    transition: 0.3s;
+    
+  }
+  
+  .sidebar1 a {
+    padding: 6px 8px 6px 16px;
+    height:75px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidebar1 a:hover {
+    color:black;
+    left: 0;
+  }
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+  #e-wallet a.active {
+    background-color: #3498DB ;
+    color: white;
+  }
